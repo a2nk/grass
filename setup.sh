@@ -10,4 +10,5 @@ pip install loguru
 pip install websockets_proxy
 pip install fake_useragent
 pip uninstall websockets
-pip install -r requirements.txt
+pip install websockets==12.0
+pip install PySocks==1.7.1
