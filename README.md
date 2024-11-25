@@ -16,4 +16,3 @@ python localgrassdesktop.py
 ```
 python localgrassnode.py
 ```
-```
