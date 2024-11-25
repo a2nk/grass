@@ -1,5 +1,13 @@
 #!/bin/bash
-sudo apt update && apt upgrade -y
-sudo apt install python3 -y
-sudo apt install -y git python3-pip
-pip3 install -r requirements.txt
+sudo apt update && sudo apt upgrade -y
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.10
+sudo apt install python3-pip
+pip install requests
+pip install asyncio
+pip install loguru
+pip install websockets_proxy
+pip install fake_useragent
+pip uninstall websockets
+pip install -r requirements.txt
