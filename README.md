@@ -10,3 +10,10 @@ chmod a+x setup.sh
 ```
 ./setup.sh
 ```
+```
+python localgrassdesktop.py
+```
+```
+python localgrassnode.py
+```
+```
